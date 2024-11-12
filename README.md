@@ -72,14 +72,14 @@ Sigue estos pasos para instalar la aplicación Laravel PokeApp:
 
 1. **Clona el repositorio:**
     ```bash
-    git clone https://github.com/tu-usuario/laravelPokeApp.git
+    git clone https://github.com/antoniocmizv/laravelPokeApp.git
     cd laravelPokeApp
     ```
 
 2. **Instala las dependencias:**
     ```bash
     composer install
-    npm install
+
     ```
 
 3. **Configura el archivo `.env`:**
@@ -98,12 +98,8 @@ Sigue estos pasos para instalar la aplicación Laravel PokeApp:
     php artisan migrate
     ```
 
-6. **Compila los assets:**
-    ```bash
-    npm run dev
-    ```
 
-7. **Inicia el servidor de desarrollo:**
+6. **Inicia el servidor de desarrollo:**
     ```bash
     php artisan serve
     ```
