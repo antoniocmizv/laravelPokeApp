@@ -119,3 +119,12 @@ Ahora puedes acceder a la aplicación en `http://localhost:8000`.
 - Configura los permisos adecuados para las carpetas `storage` y `bootstrap/cache`.
 
 ¡Disfruta desarrollando con Laravel PokeApp!
+
+
+
+## Capturas
+aparrtado de vista
+![alt text](image.png)
+
+apartado de edición
+![alt text](image-1.png)
