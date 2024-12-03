@@ -19,7 +19,26 @@
             </div>
             <div class="form-group">
                 <label for="tipo">Tipo del Pokémon</label>
-                <input value="{{old('tipo')}}" required type="text" class="form-control" id="tipo" name="tipo" placeholder="Tipo del Pokémon">
+                <select class="form-control" id="tipo" name="tipo" required>
+                    <option value="">Selecciona un tipo</option>
+                    <option value="Agua" {{ old('tipo') == 'Agua' ? 'selected' : '' }}>Agua</option>
+                    <option value="Fuego" {{ old('tipo') == 'Fuego' ? 'selected' : '' }}>Fuego</option>
+                    <option value="Planta" {{ old('tipo') == 'Planta' ? 'selected' : '' }}>Planta</option>
+                    <option value="Eléctrico" {{ old('tipo') == 'Eléctrico' ? 'selected' : '' }}>Eléctrico</option>
+                    <option value="Hielo" {{ old('tipo') == 'Hielo' ? 'selected' : '' }}>Hielo</option>
+                    <option value="Lucha" {{ old('tipo') == 'Lucha' ? 'selected' : '' }}>Lucha</option>
+                    <option value="Veneno" {{ old('tipo') == 'Veneno' ? 'selected' : '' }}>Veneno</option>
+                    <option value="Tierra" {{ old('tipo') == 'Tierra' ? 'selected' : '' }}>Tierra</option>
+                    <option value="Volador" {{ old('tipo') == 'Volador' ? 'selected' : '' }}>Volador</option>
+                    <option value="Psíquico" {{ old('tipo') == 'Psíquico' ? 'selected' : '' }}>Psíquico</option>
+                    <option value="Bicho" {{ old('tipo') == 'Bicho' ? 'selected' : '' }}>Bicho</option>
+                    <option value="Roca" {{ old('tipo') == 'Roca' ? 'selected' : '' }}>Roca</option>
+                    <option value="Fantasma" {{ old('tipo') == 'Fantasma' ? 'selected' : '' }}>Fantasma</option>
+                    <option value="Dragón" {{ old('tipo') == 'Dragón' ? 'selected' : '' }}>Dragón</option>
+                    <option value="Siniestro" {{ old('tipo') == 'Siniestro' ? 'selected' : '' }}>Siniestro</option>
+                    <option value="Acero" {{ old('tipo') == 'Acero' ? 'selected' : '' }}>Acero</option>
+                    <option value="Hada" {{ old('tipo') == 'Hada' ? 'selected' : '' }}>Hada</option>
+                </select>
             </div>
             <div class="form-group">
                 <label for="numero">Número del Pokémon</label>

@@ -128,3 +128,6 @@ aparrtado de vista
 
 apartado de edición
 ![alt text](image-1.png)
+
+si la edición falla me recupera los datos antiguos
+![alt text](image-2.png)
