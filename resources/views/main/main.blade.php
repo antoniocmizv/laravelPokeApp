@@ -1,6 +1,6 @@
 @extends('base')
 
-@section('title', 'products, etc.')
+@section('title', 'products, furniture, pokemons.')
 
 @section('content')
 
@@ -11,5 +11,9 @@
     @endif
     &nbsp;
     <a href="{{url('product')}}" class="btn btn-success">products</a>
+    &nbsp;
+    <a href="{{url('furniture')}}" class="btn btn-success">furniture</a>
+    &nbsp;
+    <a href="{{url('pokemon')}}" class="btn btn-success">pokemons</a>
 
 @endsection
